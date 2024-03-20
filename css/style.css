@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  margin: 100px auto 0;
+  background-color: #16394c;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #ebfffc;
+  color: #555;
+  flex: 1;
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.search button {
+  background-color: #ebfffc;
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search button i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  display: none;
+  text-align: left;
+  margin-top: 10px;
+  color: #dc0a0a;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.weather {
+  display: none;
+}
+
+.weather .top {
+  margin-top: 50px;
+  position: relative;
+}
+
+.weather .top img {
+  width: 150px;
+}
+
+.weather .top h1 {
+  margin-top: -10px;
+  font-size: 70px;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+}
+
+.weather .top h1 i {
+  position: absolute;
+  font-size: 18px;
+  top: 13px;
+  left: 50%;
+  position: absolute;
+  font-size: 26px;
+  top: 26px;
+  left: 52%;
+}
+
+.weather .top h2 {
+  color: #fff;
+  font-size: 28px;
+}
+
+.weather .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.weather .details i {
+  font-size: 35px;
+}
+
+.weather .details .col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather .details .col div {
+  /* margin-top: 5px; */
+}
+
+.weather .details {
+}
+
+.weather {
+}
+
+.weather {
+}
