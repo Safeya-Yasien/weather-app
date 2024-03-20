@@ -12,4 +12,4 @@ enter city name and will display<br>
   <br>
   <br>
 
-https://safeya-yasien.github.io/wather-app
+https://safeya-yasien.github.io/weather-app
